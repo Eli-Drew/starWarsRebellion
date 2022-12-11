@@ -12,6 +12,7 @@ Long Term: This version is interactive gui.
 # TODO 
 """
 * add 'amountInBox' to units.json
+* how to factor in the action cards...?
 1. Ask user for input through GUI.
     - Who is attacking (who goes first?)
     - Can attacker move here?
