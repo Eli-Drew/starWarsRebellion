@@ -1,0 +1,55 @@
+{
+    "typeOfObject": "combat card",
+    "theater": "ground",
+    "faction": "empire",
+    "cards": [
+        {
+            "name": "AIR SUPERIORITY",
+            "descriptionTop": "Cancel the Rebel tactic card.",
+            "descriptionBottom": "Next combat round, the Rebel player cannot play a ground tactic card.",
+            "vehicleBonus": "TIE Striker"
+        },
+        {
+            "name": "IMPOSING PRESENCE",
+            "descriptionTop": "Rebel ground units cannot remove damage using 'cross-saber' this combat round.",
+            "descriptionBottom": "You may play 1 additional ground tactic card.",
+            "vehicleBonus": "None"
+        },
+        {
+            "name": "ARMORED POSITION",
+            "descriptionTop": "After the Rebel player assigns damage, deal up to 3 damage to 1 Shield Bunker. Then remove that much damage from ground units.",
+            "descriptionBottom": "Until the end of the combat, during ground battles, you resolve your attacks after the Rebel player.",
+            "vehicleBonus": "Shield Bunker"
+        },
+        {
+            "name": "SUPPORT OF THE 501ST",
+            "descriptionTop": "Destroy 1 'triangle' ground unit. (it will not roll dice this round.)",
+            "descriptionBottom": "Deal 1 black damage.",
+            "vehicleBonus": "Deal 1 black damage."
+        },
+        {
+            "name": "TARGET THE GENERATOR",
+            "descriptionTop": "Destroy 1 structure. (It will not roll dice this round.",
+            "descriptionBottom": "Deal 1 red damage",
+            "vehicleBonus": "AT-AT"
+        },
+        {
+            "name": "ARMORED PATROL",
+            "descriptionTop": "Prevent 2 red hits [o] and 2 black hits [o].",
+            "descriptionBottom": "Prevent 1 red hit [o] and 1 black hit [o].",
+            "vehicleBonus": "Assault Tank"
+        },
+        {
+            "name": "BOMBBARDMENT",
+            "descriptionTop": "If there is not a Shield Generator in this system, deal 2 black damage.",
+            "descriptionBottom": "Deal 1 damage.",
+            "vehicleBonus": "Star Destroyer OR Super Star Destroyer."
+        },
+        {
+            "name": "OVERRUN",
+            "descriptionTop": "Deal 2 damage.",
+            "descriptionBottom": "Deal 1 damage",
+            "vehicleBonus": "AT-ST"
+        }
+    ]
+}

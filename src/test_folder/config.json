@@ -1,0 +1,12 @@
+{
+    "unitIds": [
+        {
+            "bt": "blue triangle",
+            "bc": "blue circle",
+            "bs": "blue square",
+            "ot": "orange triangle",
+            "oc": "orange circle",
+            "os": "orange square"
+        }
+    ]
+}

@@ -3,11 +3,58 @@ Author:     Drew Rinker
 Date:       12/10/2022
 
 Space Battle Driver.
+
+Short term: Console based
+Long Term: This version is interactive gui. 
+        - also want an automated version
+"""
+
+# TODO 
+"""
+* add 'amountInBox' to units.json
+1. Ask user for input through GUI.
+    - Who is attacking (who goes first?)
+    - Can attacker move here?
+        - Are they moving from an area that already has a leader?
+        - Are they trying to traverse a single edge to to get to this system?
+    - How many of each reinforcement is is the system.
+        - Ground, space
+        - Build those objects in memory
+    - Leaders in the system
+        - take highest value for space and ground (can be separate leaders)
+            - do by faction
+    - Ask about troops in each neighboring area. (determining if can retreat)
+        - graph theory involved here.
+        - edges and nodes. 
+            - there will be 4 edges and 5 nodes for each system graph. 
+            - presense of enemies (or by rules) on neighboring nodes won't allow to retreat there.
+
+    *** Actual Battle ***
+    - are there space units? 
+        1. yes. cpu and player pick their tactic card
+            - at first, it can be random for cpu.
+            - check what units it has in system. 
+                - prioritize cards that vehiclebonus vehicle is in system.
+        2. reveal tactic cards.
+            - carry out action of card. 
+                - can be immediate or in affect at end of round
+        3. roll dice.
+            - attacker rolls first
+            - max: 5 red, 5 black, 3 green
+            - check leader space units
+                - can reroll up to that number
+                    - logic to determine if cpu needs to reroll or not.
+                    - what to reroll as well
+                    - don't want cpu to reroll random dice.
+            - assign dmg. 
+                - cpu will need a priority sheet. 
+
+
 """
 
 import json
-import sys
 from Combat_Card_Space import CombatCard
+from Dice import Dice
 
 
 def importCombatCards(cardList, faction, theater):
@@ -39,7 +86,7 @@ def printCardSet(cardSet):
 def main():
 
     # open rebel space card json file and create Rebel Space card objects.
-    data = readJsonCardInfo("rebelsSpaceBattleCards.json")
+    data = readJsonCardInfo("rebelsGroundBattleCards.json")
     faction = data["faction"]
     theater = data["theater"]
     cardSet = data["cards"]

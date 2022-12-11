@@ -1,0 +1,29 @@
+{
+    "typeOfObject": "Dice",
+    "dice": [
+        {
+            "color": "green",
+            "numSides": "6",
+            "numHits": "0",
+            "numDirectHits": "2",
+            "numSpecial": "0",
+            "numBlank": "4"
+        },
+        {
+            "color": "red",
+            "numSides": "6",
+            "numHits": "2",
+            "numDirectHits": "1",
+            "numSpecial": "1",
+            "numBlank": "2"
+        },
+        {
+            "color": "black",
+            "numSides": "6",
+            "numHits": "2",
+            "numDirectHits": "1",
+            "numSpecial": "1",
+            "numBlank": "2"
+        }
+    ]
+}

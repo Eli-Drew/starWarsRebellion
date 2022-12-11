@@ -1,13 +1,55 @@
 {
-    "typeOfOject": "combat card",
+    "typeOfObject": "combat card",
     "theater": "ground",
-    "faction": "empire",
+    "faction": "rebels",
     "cards": [
         {
-            "name": "AIR SUPERIORITY",
-            "descriptionTop": "Cancel the Rebel tactic card.",
-            "descriptionBottom": "Next combat round, the Rebel player cannot play a ground tactic card.",
-            "vehicleBonus": "TIE Striker"
+            "name": "HOLD THEM BACK",
+            "descriptionTop": "Destroy 1 'triangle' ground unit. (It will not roll dice this round.)",
+            "descriptionBottom": "Deal 1 black damage.",
+            "vehicleBonus": "Rebel Trooper"
+        },
+        {
+            "name": "ROGUE ONE",
+            "descriptionTop": "If you retreat at least 1 unit this combat round, you may rescue 1 captured leader or remove 1 target marker from this system.", 
+            "descriptionBottom": "Imperial ground units cannot remove damage using 'cross-sabers' this round.",
+            "vehicleBonus": "U-Wing"
+        },
+        {
+            "name": "ESCAPE PLAN",
+            "descriptionTop": "You may immediately retreat. If you do, cancel the Imperial tactic card.",
+            "descriptionBottom": "Next combat round, the Imperial player cannot play a ground tactic card.",
+            "vehicleBonus": "Rebel Transport"
+        },
+        {
+            "name": "PLANETARY SHIELD",
+            "descriptionTop": "After the Imperial player assigns damage, deal up to 3 damage to 1 Shield Generator. Then remove that much damage from ground units.",
+            "descriptionBottom": "Until the end of the combat, during the ground battles, you resolve your attacks after the Imperial player",
+            "vehicleBonus": "Shield Generator"
+        },
+        {
+            "name": "TAKE COVER",
+            "descriptionTop": "Prevent 2 red hits [o] and 2 black hits [o].",
+            "descriptionBottom": "Prevent 1 red hit [o] and 1 black hit [o].",
+            "vehicleBonus": "Golan Arms Turret"
+        },
+        {
+            "name": "TOW CABLES",
+            "descriptionTop": "Deal 4 damage to 1 AT-AT or AT-ST.",
+            "descriptionBottom": "Deal 1 damage.",
+            "vehicleBonus": "Airspeeder"
+        },
+        {
+            "name": "TAKE IT DOWN",
+            "descriptionTop": "Deal 2 red damage.",
+            "descriptionBottom": "Deal 1 red damage.",
+            "vehicleBonus": "Rebel Vanguard"
+        },
+        {
+            "name": "CONFRONTATION",
+            "descriptionTop": "If the last Imperial ground unit is destroyed during this combat round, place a damage token under an Imperial leader in this system and remove this card from the game. At the end of this Command Phase, that leader is eliminated.",
+            "descriptionBottom": "You may play 1 additional ground tactic card.",
+            "vehicleBonus": "None"
         }
     ]
 }
