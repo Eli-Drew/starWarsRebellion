@@ -1,0 +1,13 @@
+{
+    "typeOfOject": "combat card",
+    "theater": "ground",
+    "faction": "empire",
+    "cards": [
+        {
+            "name": "AIR SUPERIORITY",
+            "descriptionTop": "Cancel the Rebel tactic card.",
+            "descriptionBottom": "Next combat round, the Rebel player cannot play a ground tactic card.",
+            "vehicleBonus": "TIE Striker"
+        }
+    ]
+}

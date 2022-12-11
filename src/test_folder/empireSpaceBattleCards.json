@@ -1,0 +1,55 @@
+{
+    "typeOfObject": "combat card",
+    "theater": "space",
+    "faction": "rebels",
+    "cards": [
+        {
+            "name": "INTERCEPT",
+            "descriptionTop": "Destroy 1 'triangle' ground unit.",
+            "descriptionBottom": "Rebel ships cannot remove damage using 'cross-saber' this combat round.",
+            "vehicleBonus": "Tie Striker"
+        },
+        {
+            "name": "SUPERLASER BLAST",
+            "descriptionTop": "Deal 5 damage to 1 capital ship.",
+            "descriptionBottom": "Deal 1 damage.",
+            "vehicleBonus": "Death Star"
+        },
+        {
+            "name": "REINFORCEMENTS",
+            "descriptionTop": "Gain 1 TIE Fighter in this system. Prevent two black hits [o].",
+            "descriptionBottom": "Prevent 2 black hits [o].",
+            "vehicleBonus": "Assault Carrier"
+        },
+        {
+            "name": "OVERWHELMING PRESENCE",
+            "descriptionTop": "Prevent 2 red hits [o] and 1 direct hit *.",
+            "descriptionBottom": "Prevent 2 red hits [o].",
+            "vehicleBonus": "Super Star Destroyer"
+        },
+        {
+            "name": "ENTRAPMENT",
+            "descriptionTop": "Cancel the Rebel tactic card. You may play 1 additional space tactic card.",
+            "descriptionBottom": "Next combat round, the Rebel player cannot play a space tactic card.",
+            "vehicleBonus": "Interdictor"
+        },
+        {
+            "name": "TRACTOR BEAM",
+            "descriptionTop": "At the end of this combat round, if there are no Rebel ships and at least 1 Star Destroyer in this system, you may capture 1 leader in this system.",
+            "descriptionBottom": "Deal 1 red damage.",
+            "vehicleBonus": "Star Destroyer"
+        },
+        {
+            "name": "ENERGY SHIELD",
+            "descriptionTop": "After the Rebel player assigns damage, remove up to 2 damage from ships.",
+            "descriptionBottom": "Until the end of the combat, during space battles, you resolve your attacks after the Rebel player.",
+            "vehicleBonus": "Shield Bunker"
+        },
+        {
+            "name": "SWARM TACTICS",
+            "descriptionTop": "If there are more Imerial fighters than Rebel fighters, deal 2 damage.",
+            "descriptionBottom": "Deal 1 black damage.",
+            "vehicleBonus": "Tie Fighter"
+        }
+    ]
+}
