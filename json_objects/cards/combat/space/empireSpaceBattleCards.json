@@ -1,7 +1,7 @@
 {
     "typeOfObject": "combat card",
     "theater": "space",
-    "faction": "rebels",
+    "faction": "empire",
     "cards": [
         {
             "name": "INTERCEPT",

@@ -1,0 +1,98 @@
+{
+    "typeOfObject": "Unit",
+    "faction": "Rebel",
+    "theater": "Space",
+    "units": [
+        {
+            "name": "X-WING",
+            "typeId":"bt",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "0",
+            "blackDamage": "1",
+            "redDamage": "0",
+            "greenDamage": "0",
+            "shieldColor": "black",
+            "shieldStrength": "1",
+            "description": ""
+        },
+        {
+            "name": "Y-WING",
+            "typeId":"bt",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "0",
+            "blackDamage": "0",
+            "redDamage": "1",
+            "greenDamage": "0",
+            "shieldColor": "black",
+            "shieldStrength": "1",
+            "description": ""
+        },
+        {
+            "name": "REBEL TRANSPORT",
+            "typeId":"bt",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "4",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "2",
+            "description": ""
+        },
+        {
+            "name": "CORELLIAN CORVETTE",
+            "typeId":"bc",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "2",
+            "blackDamage": "1",
+            "redDamage": "1",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "2",
+            "description": ""
+        },
+        {
+            "name": "MON CALAMARI CRUISER",
+            "typeId":"bs",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "4",
+            "blackDamage": "1",
+            "redDamage": "2",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "4",
+            "description": ""
+        },
+        {
+            "name": "U-WING",
+            "typeId":"bt",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "1",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "1",
+            "shieldColor": "black",
+            "shieldStrength": "1",
+            "description": ""
+        },
+        {
+            "name": "NEBULON-B FRIGATE",
+            "typeId":"bc",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "3",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "2",
+            "shieldColor": "red",
+            "shieldStrength": "3",
+            "description": ""
+        }
+    ]
+}

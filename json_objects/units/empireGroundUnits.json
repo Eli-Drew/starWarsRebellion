@@ -1,0 +1,72 @@
+{
+    "typeOfObject": "Unit",
+    "faction": "Empire",
+    "theater": "Ground",
+    "units": [
+        {
+            "name": "STORM TROOPER",
+            "typeId":"ot",
+            "needToBeTransported": "true",
+            "canBeTransported": "true",
+            "transportAmount": "0",
+            "blackDamage": "1",
+            "redDamage": "0",
+            "greenDamage": "0",
+            "shieldColor": "black",
+            "shieldStrength": "1",
+            "description": ""
+        },
+        {
+            "name": "AT-ST",
+            "typeId":"oc",
+            "needToBeTransported": "true",
+            "canBeTransported": "true",
+            "transportAmount": "0",
+            "blackDamage": "1",
+            "redDamage": "1",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "2",
+            "description": ""
+        },
+        {
+            "name": "AT-AT",
+            "typeId":"os",
+            "needToBeTransported": "true",
+            "canBeTransported": "true",
+            "transportAmount": "0",
+            "blackDamage": "1",
+            "redDamage": "2",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "3",
+            "description": ""
+        },
+        {
+            "name": "ASSAULT TANK",
+            "typeId":"ot",
+            "needToBeTransported": "true",
+            "canBeTransported": "true",
+            "transportAmount": "0",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "1",
+            "shieldColor": "red",
+            "shieldStrength": "1",
+            "description": ""
+        },
+        {
+            "name": "SHIELD BUNKER",
+            "typeId":"oc",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "0",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "3",
+            "description": "Space Stations in this system cannot be destroyed. Enables deployment in remote system."
+        }
+    ]
+}

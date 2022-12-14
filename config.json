@@ -1,0 +1,42 @@
+{
+    "unitIds": {
+            "bt": "blue triangle",
+            "bc": "blue circle",
+            "bs": "blue square",
+            "ot": "orange triangle",
+            "oc": "orange circle",
+            "os": "orange square"
+    },
+
+    "variables": {
+        "generalVariables": {
+            "parentDirectory": "C:\\Users\\drewr\\Documents\\starWarsRebellion"
+        },
+        "cardsVariables": {
+           "action": {
+                "": ""
+           },
+           "combat": {
+                "rebelGroundBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\ground\\rebelsGroundBattleCards.json",
+                "empireGroundBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\ground\\empireGroundBattleCards.json",
+                "rebelSpaceBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\space\\rebelSpaceBattleCards.json",
+                "empireSpaceBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\space\\empireSpaceBattleCards.json"
+           },
+           "mission": {
+                "": ""
+           },
+           "objective": {
+                "": ""
+           }
+        },
+        "diceAndTokensVariables": {
+            "dice": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\dice-tokens\\dice.json"
+        },
+        "unitsPathVariables": {
+            "rebelSpaceUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\rebelSpaceUnits.json",
+            "rebelGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\rebelGroundUnits.json",
+            "empireSpaceUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireSpaceUnits.json",
+            "empireGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireGroundUnits.json"
+        }
+    }
+}

@@ -12,7 +12,7 @@ Long Term: This version is interactive gui.
 # TODO 
 """
 * add 'amountInBox' to units.json
-* how to factor in the action cards...?
+* how to factor in the action cards...? 
 1. Ask user for input through GUI.
     - Who is attacking (who goes first?)
     - Can attacker move here?
@@ -54,8 +54,20 @@ Long Term: This version is interactive gui.
 """
 
 import json
-from Combat_Card_Space import CombatCard
-from Dice import Dice
+import sys
+
+# import config.json file
+with open("C:\\Users\\drewr\\Documents\\starWarsRebellion\\config.json", "r") as config:
+    info = json.load(config)
+pathVariables = info["variables"]
+combatCards = pathVariables["cardsVariables"]["combat"]
+
+
+# not sure if this sys.path is best practice for importing things or not. 
+    # this path should be in the config.
+sys.path.append("C:\\Users\\drewr\\Documents\\starWarsRebellion")
+from src.entities.Combat_Card_Space import CombatCard
+from src.entities.Dice import Dice
 
 
 def importCombatCards(cardList, faction, theater):
@@ -87,7 +99,7 @@ def printCardSet(cardSet):
 def main():
 
     # open rebel space card json file and create Rebel Space card objects.
-    data = readJsonCardInfo("rebelsGroundBattleCards.json")
+    data = readJsonCardInfo(combatCards["rebelSpaceBattleCards"])
     faction = data["faction"]
     theater = data["theater"]
     cardSet = data["cards"]
@@ -95,6 +107,9 @@ def main():
     printCardSet(rebelSpaceBattleCardList)
 
     # open empire space cards json file and create Empire Space tactic cards.
+    # open ground cards next.
+
+    # get info on what units, and what system, and what leaders are present in this combat round.
 
 
 main()

@@ -1,0 +1,85 @@
+{
+    "typeOfObject": "Unit",
+    "faction": "Rebel",
+    "theater": "ground",
+    "units": [
+        {
+            "name": "REBEL TROOPER",
+            "typeId":"ot",
+            "needToBeTransported": "true",
+            "canBeTransported": "true",
+            "transportAmount": "0",
+            "blackDamage": "1",
+            "redDamage": "0",
+            "greenDamage": "0",
+            "shieldColor": "black",
+            "shieldStrength": "1",
+            "description": ""
+        },
+        {
+            "name": "AIRSPEEDER",
+            "typeId":"oc",
+            "needToBeTransported": "true",
+            "canBeTransported": "true",
+            "transportAmount": "0",
+            "blackDamage": "1",
+            "redDamage": "1",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "2",
+            "description": ""
+        },
+        {
+            "name": "SHIELD GENERATOR",
+            "typeId":"os",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "0",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "3",
+            "description": "At the start of each ground battle step, draw 1 ground tactic card."
+        },
+        {
+            "name": "ION CANNON",
+            "typeId":"os",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "0",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "0",
+            "shieldColor": "red",
+            "shieldStrength": "3",
+            "description": "During each space battle step, your opponent rolls 2 fewer red dice."
+        },
+        {
+            "name": "REBEL VANGUARD",
+            "typeId":"ot",
+            "needToBeTransported": "true",
+            "canBeTransported": "true",
+            "transportAmount": "0",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "1",
+            "shieldColor": "black",
+            "shieldStrength": "1",
+            "description": ""
+        },
+        {
+            "name": "GOLAN ARMS TURRET",
+            "typeId":"oc",
+            "needToBeTransported": "false",
+            "canBeTransported": "false",
+            "transportAmount": "0",
+            "blackDamage": "0",
+            "redDamage": "0",
+            "greenDamage": "2",
+            "shieldColor": "red",
+            "shieldStrength": "3",
+            "description": ""
+        }
+    ]
+}
