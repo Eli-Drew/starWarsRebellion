@@ -1,0 +1,26 @@
+{
+    "typeOfObject": "leader",
+    "faction": "empire",
+    "leaders": [
+        {
+            "name": "",
+            "admiral": "",
+            "general": "",
+            "hasTacticValues": "",
+            "spaceTacticValue": "",
+            "groundTacticValue": "",
+            "skillIcons": {
+                "diplomacy": "",
+                "intel": "",
+                "specOps": "",
+                "logistics": ""
+            },
+            "minorSkillIcons": {
+                "diplomacy": "",
+                "intel": "",
+                "specOps": "",
+                "logistics": ""
+            }
+        }
+    ]
+}
