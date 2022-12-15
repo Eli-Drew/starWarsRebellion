@@ -15,6 +15,8 @@ with open("C:\\Users\\drewr\\Documents\\starWarsRebellion\\config.json", "r") as
 pathVariables = info["variables"]
 
 class Demo(Frame):
+    # TODO 
+    # rearrange the gui
 
     def __init__(self):
         Frame.__init__(self, width=1000, height=450)
@@ -27,9 +29,9 @@ class Demo(Frame):
 
         # radio buttons for who is attacking
         self.attackingVar = StringVar(value="1")
-        self.empireRadioBtn = Radiobutton(self, text="Empire", variable=self.attackingVar, value="e")
+        self.empireRadioBtn = Radiobutton(self, text="Empire", variable=self.attackingVar, value="e", padx=10)
         self.empireRadioBtn.grid(row=2, column=0)
-        self.rebelRadioBtn = Radiobutton(self, text="Rebels", variable=self.attackingVar, value="r")
+        self.rebelRadioBtn = Radiobutton(self, text="Rebels", variable=self.attackingVar, value="r", padx=10)
         self.rebelRadioBtn.grid(row=2, column=1)
 
         # START Leader selection
@@ -37,15 +39,20 @@ class Demo(Frame):
         self.leadersLabel.grid(row=3)
         # perhaps read these leaders names' in from json storage.
 
+        # path to units json files
+        unitsPathVariables = pathVariables["unitsPathVariables"]
+        leaderPathVariables = pathVariables["leaderPathVariables"]
+        planetPathVariables = pathVariables["planetImages"]
+
         # empire leaders
-        self.empireLeadersList = ["Emperor Palpatine", "Darth Vader", "Boba Fett"]
+        self.empireLeadersList = self.getLeaders(leaderPathVariables["empireLeaders"])
         self.empireLeaderVar = Variable(value=self.empireLeadersList)
         self.empireLeaderListBox = Listbox(self, listvariable=self.empireLeaderVar, height=5, selectmode=EXTENDED, exportselection=False)
         self.empireLeaderListBox.grid(row=4, column=0)
         self.empireLeaderListBox.bind("<<ListboxSelect>>", self.empireLeadersSelected)
 
         # rebel leaders
-        self.rebelLeadersList = ["Han Solo", "Obi-Wan Kenobi", "Chewbacca"]
+        self.rebelLeadersList = self.getLeaders(leaderPathVariables["rebelLeaders"])
         self.rebelLeaderVar = Variable(value=self.rebelLeadersList)
         self.rebelLeaderListBox = Listbox(self, listvariable=self.rebelLeaderVar, height=5, selectmode=EXTENDED, exportselection=False)
         self.rebelLeaderListBox.grid(row=4, column=1)
@@ -58,10 +65,6 @@ class Demo(Frame):
         self.empireNameLabel1.grid(row=6, column=0)
         self.rebelNameLabel1 = Label(self, text="Rebel Space Units")
         self.rebelNameLabel1.grid(row=6, column=1)
-
-
-        # path to units json files
-        unitsPathVariables = pathVariables["unitsPathVariables"]
 
         # these following 'units' blocks of code could be made into a single function. 
 
@@ -97,6 +100,12 @@ class Demo(Frame):
         # submit information
         self.finalSubmissionBtn = Button(self, text="Start Combat", command=self.startCombat)
         self.finalSubmissionBtn.grid(row=10, columnspan=2)
+
+        # image test.
+        self.planetImage = PhotoImage(file="C:\\Users\\drewr\\Documents\\starWarsRebellion\\images\\planets\\hoth.gif")
+        # self.planetImage = PhotoImage(file="C:\Users\drewr\Documents\starWarsRebellion\images\planets\hoth.webp")
+        self.planetImageLabel = Label(self, image=self.planetImage)
+        self.planetImageLabel.grid(row=11, columnspan=2)
    
             
     # START: Controllers/Model.
@@ -109,6 +118,17 @@ class Demo(Frame):
     def rebelLeaderSelected(self, event):
         selectedIndexes = self.rebelLeaderListBox.curselection()
         print(selectedIndexes)
+
+    def getLeaders(self, file):
+        leaderList = []
+        with open(file, "r") as leaderFile:
+            leaderInfo = json.load(leaderFile)
+            leaders = leaderInfo["leaders"]
+            for leader in leaders:
+                leaderList.append(leader["name"])
+            print(leaderList)
+            return leaderList
+
 
     # access to dao. (json) so model...
     def getUnits(self, file):

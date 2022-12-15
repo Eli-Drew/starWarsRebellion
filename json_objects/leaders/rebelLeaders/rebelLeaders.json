@@ -1,0 +1,363 @@
+{
+    "typeOfObject": "leader",
+    "faction": "rebel",
+    "leaders": [
+        {
+            "name": "Obi-Wan Kenobi",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "3",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "3",
+                "specOps": "0",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Luke Skywalker (Jedi)",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "3",
+            "groundTacticValue": "3",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "3",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Han Solo",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "1",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Chewbacca",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "3",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Wedge Antilles",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "3",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Luke Skywalker ",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "2",
+                "specOps": "1",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Admiral Ackbar",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "3",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "2",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Cassian Andor",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "2",
+                "specOps": "0",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "2",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Princess Leia",
+            "startingLeader": "true",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "2",
+                "intel": "2",
+                "specOps": "1",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Mon Mothma",
+            "startingLeader": "true",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "false",
+            "spaceTacticValue": "0",
+            "groundTacticValue": "0",
+            "skillIcons": {
+                "diplomacy": "3",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Lando Calrissian",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "1",
+                "specOps": "1",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Chirrut Imwe",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "0",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "2",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Jin Erso",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "1",
+                "specOps": "1",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "1",
+                "intel": "2",
+                "specOps": "1",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "General Rieekan",
+            "startingLeader": "true",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "0",
+                "specOps": "1",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Saw Gerrera",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "3",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "1",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "2",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "General Madine",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "3",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "2",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Jan Dodonna",
+            "startingLeader": "true",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "2",
+                "specOps": "0",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        }
+    ]
+}

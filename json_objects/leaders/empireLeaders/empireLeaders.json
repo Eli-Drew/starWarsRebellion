@@ -3,23 +3,339 @@
     "faction": "empire",
     "leaders": [
         {
-            "name": "",
+            "name": "Boba Fett",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "false",
+            "spaceTacticValue": "0",
+            "groundTacticValue": "0",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "2",
+                "specOps": "3",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Darth Vader",
+            "startingLeader": "true",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "3",
+            "skillIcons": {
+                "diplomacy": "2",
+                "intel": "0",
+                "specOps": "3",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Emperor Palpatine",
+            "startingLeader": "true",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "3",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "3",
+                "intel": "2",
+                "specOps": "0",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Colonel Yularen",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "3",
+                "specOps": "0",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Director Krennic",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "1",
+                "specOps": "0",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "2",
+                "specOps": "1",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Krennic's Finest",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "3",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "2",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Soontir Fel",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "1",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "General Veers",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "3",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "2",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Jabba The Hut",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "false",
+            "spaceTacticValue": "0",
+            "groundTacticValue": "0",
+            "skillIcons": {
+                "diplomacy": "2",
+                "intel": "2",
+                "specOps": "0",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "1",
+                "intel": "1",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Grand Moff Tarkin",
+            "startingLeader": "true",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "1",
+                "specOps": "0",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Admiral Piet",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "3",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "2",
+                "specOps": "1",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Janus Greejatus",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "false",
+            "spaceTacticValue": "0",
+            "groundTacticValue": "0",
+            "skillIcons": {
+                "diplomacy": "2",
+                "intel": "1",
+                "specOps": "0",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Admiral Motti",
+            "startingLeader": "false",
+            "admiral": "true",
+            "general": "false",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "2",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "1",
+                "intel": "1",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Moff Jerjerrod",
+            "startingLeader": "false",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "1",
+            "skillIcons": {
+                "diplomacy": "1",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "Admiral Ozzel",
+            "startingLeader": "false",
             "admiral": "",
             "general": "",
             "hasTacticValues": "",
             "spaceTacticValue": "",
             "groundTacticValue": "",
             "skillIcons": {
-                "diplomacy": "",
-                "intel": "",
-                "specOps": "",
-                "logistics": ""
+                "diplomacy": "0",
+                "intel": "1",
+                "specOps": "0",
+                "logistics": "1"
             },
             "minorSkillIcons": {
-                "diplomacy": "",
-                "intel": "",
-                "specOps": "",
-                "logistics": ""
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
+            }
+        },
+        {
+            "name": "General Tagge",
+            "startingLeader": "true",
+            "admiral": "false",
+            "general": "true",
+            "hasTacticValues": "true",
+            "spaceTacticValue": "1",
+            "groundTacticValue": "2",
+            "skillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "1",
+                "logistics": "1"
+            },
+            "minorSkillIcons": {
+                "diplomacy": "0",
+                "intel": "0",
+                "specOps": "0",
+                "logistics": "0"
             }
         }
     ]

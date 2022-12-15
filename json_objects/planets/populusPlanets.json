@@ -1,0 +1,341 @@
+{
+    "typeOfObject": "planet",
+    "planets": [
+        {
+            "name": "Mon Calamari",
+            "buildQueueNum": "3",
+            "leftIcon": "bt",
+            "rightIcon": "bs",
+            "loyalty": "",
+            "region": "1",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Felucia",
+            "buildQueueNum": " 1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "1",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Saleucami",
+            "buildQueueNum": "1",
+            "leftIcon": "oc",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "1",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Kessel",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "2",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Nal Hutta",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "2",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Toydaria",
+            "buildQueueNum": "2",
+            "leftIcon": "bc",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "2",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Bothawui",
+            "buildQueueNum": "1",
+            "leftIcon": "oc",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "2",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Rodia",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "3",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Geonosis",
+            "buildQueueNum": "2",
+            "leftIcon": "bt",
+            "rightIcon": "os",
+            "loyalty": "",
+            "region": "3",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Ryloth",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "3",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Naboo",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "bt",
+            "loyalty": "",
+            "region": "4",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Utapau",
+            "buildQueueNum": "3",
+            "leftIcon": "bc",
+            "rightIcon": "bs",
+            "loyalty": "",
+            "region": "4",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Sullust",
+            "buildQueueNum": "2",
+            "leftIcon": "ot",
+            "rightIcon": "os",
+            "loyalty": "",
+            "region": "4",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Mustafar",
+            "buildQueueNum": "2",
+            "leftIcon": "bt",
+            "rightIcon": "bo",
+            "loyalty": "",
+            "region": "5",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Bespin",
+            "buildQueueNum": "1",
+            "leftIcon": "oc",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "5",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Mygeeto",
+            "buildQueueNum": "2",
+            "leftIcon": "bt",
+            "rightIcon": "os",
+            "loyalty": "",
+            "region": "6",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Ord Mantell",
+            "buildQueueNum": "2",
+            "leftIcon": "bc",
+            "rightIcon": "oc",
+            "loyalty": "",
+            "region": "6",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Mandalore",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "bt",
+            "loyalty": "",
+            "region": "7",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Kashyyyk",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "ot",
+            "loyalty": "",
+            "region": "7",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Malastare",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "7",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Cato Neimoidia",
+            "buildQueueNum": "2",
+            "leftIcon": "bt",
+            "rightIcon": "oc",
+            "loyalty": "",
+            "region": "8",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Alderaan",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "8",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Corellia",
+            "buildQueueNum": "3",
+            "leftIcon": "bt",
+            "rightIcon": "bs",
+            "loyalty": "",
+            "region": "8",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        },
+        {
+            "name": "Coruscant",
+            "buildQueueNum": "1",
+            "leftIcon": "ot",
+            "rightIcon": "",
+            "loyalty": "",
+            "region": "8",
+            "destroyed": "false",
+            "sabotoged": "false",
+            "unitsInSystem": {
+                "space": [],
+                "ground": []
+            }
+        }
+    ]
+}

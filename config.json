@@ -37,6 +37,18 @@
             "rebelGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\rebelGroundUnits.json",
             "empireSpaceUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireSpaceUnits.json",
             "empireGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireGroundUnits.json"
-        }
+        },
+        "leaderPathVariables": {
+            "empireLeaders": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\leaders\\empireLeaders\\empireLeaders.json",
+            "rebelLeaders": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\leaders\\rebelLeaders\\rebelLeaders.json"
+        },
+        "planetPathVariables": {
+
+        },
+        "planetImages": [
+            {
+                "hoth": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\images\\planets\\hoth.gif"
+            }
+        ]
     }
 }
