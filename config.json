@@ -14,7 +14,8 @@
         },
         "cardsVariables": {
            "action": {
-                "": ""
+                "rebelActionCards": "",
+                "empireActionCards": ""
            },
            "combat": {
                 "rebelGroundBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\ground\\rebelsGroundBattleCards.json",
@@ -43,7 +44,7 @@
             "rebelLeaders": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\leaders\\rebelLeaders\\rebelLeaders.json"
         },
         "planetPathVariables": {
-
+                "": ""
         },
         "planetImages": [
             {

@@ -8,13 +8,14 @@ and other combat information.
 
 from tkinter import *
 import json
+import CombatInfoScreenData
 
 # import config.json file
 with open("C:\\Users\\drewr\\Documents\\starWarsRebellion\\config.json", "r") as config:
     info = json.load(config)
 pathVariables = info["variables"]
 
-class Demo(Frame):
+class CombatInfoScreen(Frame):
     # TODO 
     # rearrange the gui
 
@@ -126,17 +127,14 @@ class Demo(Frame):
             leaders = leaderInfo["leaders"]
             for leader in leaders:
                 leaderList.append(leader["name"])
-            print(leaderList)
             return leaderList
 
 
     # access to dao. (json) so model...
     def getUnits(self, file):
         with open(file, "r") as unitFile:
-                # print(file)
                 unitInfo = json.load(unitFile)
                 units = unitInfo["units"]
-                # print(units)
                 return units
 
     # controller
@@ -145,7 +143,6 @@ class Demo(Frame):
         self.unitColumn = 0
         for unit in units:
             unitName = unit["name"]
-            # print(unitName)
             self.unitEntryLabel = Label(frame, text=unitName)
             self.unitEntryLabel.grid(row=self.unitRow,column=self.unitColumn)
             self.unitColumn += 1
@@ -161,6 +158,6 @@ class Demo(Frame):
         pass
 
 def main():
-    Demo().mainloop()
+    CombatInfoScreen().mainloop()
 
 main()
