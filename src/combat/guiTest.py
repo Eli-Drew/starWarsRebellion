@@ -48,7 +48,8 @@ class CombatInfoScreen(Frame):
         # empire leaders
         self.empireLeadersList = self.getLeaders(leaderPathVariables["empireLeaders"])
         self.empireLeaderVar = Variable(value=self.empireLeadersList)
-        self.empireLeaderListBox = Listbox(self, listvariable=self.empireLeaderVar, height=5, selectmode=EXTENDED, exportselection=False)
+        self.empireLeaderScollBar = Scrollbar(self, orient=VERTICAL)
+        self.empireLeaderListBox = Listbox(self, listvariable=self.empireLeaderVar, height=5, selectmode=EXTENDED, exportselection=False, yscrollcommand=self.empireLeaderScollBar.set)
         self.empireLeaderListBox.grid(row=4, column=0)
         self.empireLeaderListBox.bind("<<ListboxSelect>>", self.empireLeadersSelected)
 
