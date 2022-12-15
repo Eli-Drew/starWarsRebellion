@@ -8,7 +8,7 @@ and other combat information.
 
 from tkinter import *
 import json
-import CombatInfoScreenData
+from CombatInfoScreenData import CombatInfoScreenData
 
 # import config.json file
 with open("C:\\Users\\drewr\\Documents\\starWarsRebellion\\config.json", "r") as config:
@@ -27,6 +27,9 @@ class CombatInfoScreen(Frame):
         self.pageTitle.grid(row=0, columnspan=2)
         self.attackSentence = Label(self, text="Who's attacking?")
         self.attackSentence.grid(row=1, columnspan=2)
+
+        # create CombatInfoScreenData object. file and class have same name. 
+        self.combatInfo = CombatInfoScreenData()
 
         # radio buttons for who is attacking
         self.attackingVar = StringVar(value="1")
@@ -158,7 +161,12 @@ class CombatInfoScreen(Frame):
     def startCombat(self):
         pass
 
+    def getCombatInfo(self):
+        return self.combatInfo
+
 def main():
     CombatInfoScreen().mainloop()
 
-main()
+
+if __name__ == "__main__":
+    main()
