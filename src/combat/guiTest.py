@@ -13,7 +13,7 @@ from CombatInfoScreenData import CombatInfoScreenData
 # import config.json file
 with open("C:\\Users\\drewr\\Documents\\starWarsRebellion\\config.json", "r") as config:
     info = json.load(config)
-pathVariables = info["variables"]
+unitsPathVariables = info["unitsPathVariables"]
 
 class CombatInfoScreen(Frame):
     # TODO 
@@ -44,9 +44,8 @@ class CombatInfoScreen(Frame):
         # perhaps read these leaders names' in from json storage.
 
         # path to units json files
-        unitsPathVariables = pathVariables["unitsPathVariables"]
-        leaderPathVariables = pathVariables["leaderPathVariables"]
-        planetPathVariables = pathVariables["planetImages"]
+        leaderPathVariables = info["leaderPathVariables"]
+        planetPathVariables = info["planetImages"]
 
         # empire leaders
         self.empireLeadersList = self.getLeaders(leaderPathVariables["empireLeaders"])

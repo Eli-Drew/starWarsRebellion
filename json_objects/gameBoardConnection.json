@@ -2,7 +2,37 @@
     "typeOfObject": "gameBoard",
     "graphPlanetNodeMap": {
         "Mon Calamari": "1",
-        "Felucia": "2"
+        "Felucia": "2",
+        "Saleucami": "3",
+        "Yavin": "4",
+        "Kessel": "5",
+        "Nal Hutta": "6",
+        "Toydaria": "7",
+        "Bothawui": "8",
+        "Tatooine": "9",
+        "Rodia": "10",
+        "Geonosis": "11",
+        "Ryloth": "12",
+        "Naboo": "13",
+        "Utapau": "14",
+        "Dagobah": "15",
+        "Sullust": "16",
+        "Mustafar": "17",
+        "Bespin": "18",
+        "Hoth": "19",
+        "Endor": "20", 
+        "Corellia": "21", 
+        "Coruscant": "22", 
+        "Cato Neimoidia": "23",
+        "Alderaan": "24", 
+        "Malastare": "25",
+        "Kashyyyk": "26",
+        "Mandalore": "27",
+        "Dathomir": "28",
+        "Ord Mantell": "29",
+        "Ilum": "30",
+        "Mygeeto": "31", 
+        "Dantooine": "32"
     },
     "graph": {
         "1": [
@@ -10,7 +40,7 @@
             "(1,3)"
         ],
         "2": [
-            "(1,2)",
+            "(2,1)",
             "(2,3)",
             "(2,27)",
             "(2,4)"

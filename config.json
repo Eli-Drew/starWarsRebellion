@@ -7,50 +7,48 @@
             "oc": "orange circle",
             "os": "orange square"
     },
-
-    "variables": {
-        "generalVariables": {
-            "parentDirectory": "C:\\Users\\drewr\\Documents\\starWarsRebellion"
+    "generalVariables": {
+        "parentDirectory": "C:\\Users\\drewr\\Documents\\starWarsRebellion"
+    },
+    "cardsVariables": {
+        "action": {
+            "rebelActionCards": "",
+            "empireActionCards": ""
         },
-        "cardsVariables": {
-           "action": {
-                "rebelActionCards": "",
-                "empireActionCards": ""
-           },
-           "combat": {
-                "rebelGroundBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\ground\\rebelsGroundBattleCards.json",
-                "empireGroundBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\ground\\empireGroundBattleCards.json",
-                "rebelSpaceBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\space\\rebelSpaceBattleCards.json",
-                "empireSpaceBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\space\\empireSpaceBattleCards.json"
-           },
-           "mission": {
-                "": ""
-           },
-           "objective": {
-                "": ""
-           }
+        "combat": {
+            "rebelGroundBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\ground\\rebelsGroundBattleCards.json",
+            "empireGroundBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\ground\\empireGroundBattleCards.json",
+            "rebelSpaceBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\space\\rebelSpaceBattleCards.json",
+            "empireSpaceBattleCards": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\cards\\combat\\space\\empireSpaceBattleCards.json"
         },
-        "diceAndTokensVariables": {
-            "dice": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\dice-tokens\\dice.json"
+        "mission": {
+            "": ""
         },
-        "unitsPathVariables": {
-            "rebelSpaceUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\rebelSpaceUnits.json",
-            "rebelGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\rebelGroundUnits.json",
-            "empireSpaceUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireSpaceUnits.json",
-            "empireGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireGroundUnits.json"
-        },
-        "leaderPathVariables": {
-            "empireLeaders": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\leaders\\empireLeaders\\empireLeaders.json",
-            "rebelLeaders": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\leaders\\rebelLeaders\\rebelLeaders.json"
-        },
-        "planetPathVariables": {
-                "populusPlanets": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\planets\\populusPlanets.json",
-                "remote": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\planets\\remotePlanets.json"
-        },
-        "planetImages": [
-            {
-                "hoth": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\images\\planets\\hoth.gif"
-            }
-        ]
-    }
+        "objective": {
+            "": ""
+        }
+    },
+    "diceAndTokensVariables": {
+        "dice": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\dice-tokens\\dice.json"
+    },
+    "unitsPathVariables": {
+        "rebelSpaceUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\rebelSpaceUnits.json",
+        "rebelGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\rebelGroundUnits.json",
+        "empireSpaceUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireSpaceUnits.json",
+        "empireGroundUnits": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\units\\empireGroundUnits.json"
+    },
+    "leaderPathVariables": {
+        "empireLeaders": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\leaders\\empireLeaders\\empireLeaders.json",
+        "rebelLeaders": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\leaders\\rebelLeaders\\rebelLeaders.json"
+    },
+    "planetPathVariables": {
+            "populusPlanets": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\planets\\populusPlanets.json",
+            "remote": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\json_objects\\planets\\remotePlanets.json"
+    },
+    "planetImages": [
+        {
+            "hoth": "C:\\Users\\drewr\\Documents\\starWarsRebellion\\images\\planets\\hoth.gif"
+        }
+    ]
+    
 }
