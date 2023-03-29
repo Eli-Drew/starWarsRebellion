@@ -35,6 +35,7 @@ class Combat(Frame):
         Frame.__init__(self, master)
         self.master.title("Combat Information")
         self.grid()
+        self.pageTitle = Label(self, text="COMBAT")
 
 if __name__ == "__main__":
     app = BaseApp()
